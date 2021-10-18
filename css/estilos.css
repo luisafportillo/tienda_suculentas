@@ -1,0 +1,82 @@
+body{
+  
+   background-image: url("../images/fondo.jpg");   
+   width: 80%; 
+   margin: auto;
+   padding: 50px;
+
+}
+
+header{
+	 background-image: url("../images/header.jpg");   
+	background-color: white; 
+	font-size: 60px;
+	padding: 40px;
+	text-align: center;
+	font-weight: bold;
+	 background-position: center;
+	background-repeat: repeat-x;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #97FAC9;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+li a:hover:not(.active) {
+    background-color: #4AD2DB;
+}
+  
+li a.active {
+    color: white;
+    background-color: #04AA6D;
+  }
+
+.contenido{
+	background-color: white;
+
+   margin: 0;
+   padding: 10px;
+
+}
+
+#mapa{
+    border-width: 1px;
+  border-style: solid;
+  border-color: #04AA6D;
+}
+
+#contacto{
+ margin: 0 auto;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid #666666;
+    width: 500px;
+}
+
+.suculentas{ 
+width: 420px;
+height: 420px;
+
+ }
+
+ .galeria{
+ 	text-align: center;
+ }
